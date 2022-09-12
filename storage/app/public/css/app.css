@@ -1,0 +1,11 @@
+.bg-black-opacity{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.bg-gray-900-opacity{
+    background-color: rgba(15, 15, 20, 0.781);
+}
+
+.bg-gray-1000{
+    background: #1B2028;
+}
