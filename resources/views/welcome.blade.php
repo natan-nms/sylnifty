@@ -215,8 +215,11 @@
         }
     </script>
     <div class="relative pt-40">
-        {{-- <img src="{{ url('storage/backgrounds') }}/{{ $data['backgrounds']->image }}" class="absolute inset-0 object-cover w-full h-full"
-            alt="" /> --}}
+        @if ( $data['backgrounds'])
+            <img src="{{ url('storage/backgrounds') }}/{{ $data['backgrounds']->image }}" class="absolute inset-0 object-cover w-full h-full"
+                alt="" />
+        @endif
+
         <div class="relative bg-opacity-75 bg-deep-purple-accent-700">
             <svg class="absolute inset-x-0 bottom-0 text-white" viewBox="0 0 1160 163">
                 <path fill="#1B2028"
